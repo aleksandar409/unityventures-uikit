@@ -61,7 +61,7 @@ export const PancakeStack = styled.div<HandleProps>`
   }
 
   .pancake {
-    background: #e27c31;
+    background: #ffffff;
     border-radius: 50%;
     width: ${getScale("pancakeSize")};
     height: ${getScale("pancakeSize")};
@@ -69,7 +69,7 @@ export const PancakeStack = styled.div<HandleProps>`
     transition: 0.4s ease;
     top: 2px;
     left: 4px;
-    box-shadow: 0 ${getScale("pancakeThickness")} 0 ${getScale("pancakeThickness")} #fbbe7c;
+    box-shadow: 0 ${getScale("pancakeThickness")} 0 ${getScale("pancakeThickness")} #bdc2c4;
   }
 
   .pancake:nth-child(1) {
@@ -142,8 +142,8 @@ export const PancakeInput = styled.input<InputProps>`
   }
 
   &:checked + label .pancake:nth-child(1) {
-    background: #e27c31;
-    box-shadow: 0 ${getScale("pancakeThickness")} 0 ${getScale("pancakeThickness")} #fbbe7c;
+    background: #ffffff;
+    box-shadow: 0 ${getScale("pancakeThickness")} 0 ${getScale("pancakeThickness")} #bdc2c4;
     transition-delay: 0.2s;
   }
 
